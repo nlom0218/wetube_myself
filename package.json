@@ -1,0 +1,11 @@
+{
+  "name": "wetube_myself",
+  "version": "1.0.0",
+  "description": "Studying Wetube Myself!!",
+  "main": "app.js",
+  "author": "KHD",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
