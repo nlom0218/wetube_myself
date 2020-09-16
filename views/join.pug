@@ -1,0 +1,10 @@
+extends layouts/main
+
+block content
+    form(action=routes.join, method="post")
+        input.email(type="email", placeholder="Email", name="eamil" value="")
+        input(type="password", placeholder="Password", name="password")
+        input(type="password", placeholder="Password", name="password2")
+        input.nickname(type="text", placeholder="Nickname", name="nickname")
+        input(type="submit", value="Join Now")
+    include partials/socialLogin
